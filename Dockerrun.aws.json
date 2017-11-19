@@ -1,18 +1,15 @@
 {
- "AWSEBDockerrunVersion": "1",
- "Authentication": {
-   "Bucket": "dockertest-auth",
-   "Key": ".dockercfg.json"
- },
- "Image": {
-    "Name": "nam20485/dockertest
-",
-    "Update": "true"
-  },
- "Ports": [
-   {
-     "ContainerPort": "80"
-   }
- ],
- "Logging": "/var/log"
+    "AWSEBDockerrunVersion": "1",
+    "Authentication": {
+        "Bucket": "dockertest-auth",
+        "Key": ".dockercfg.json"
+    },
+    "Image": {
+        "Name": "903455642405.dkr.ecr.us-west-2.amazonaws.com/dockertest:latest",
+        "Update": "true"
+    },
+    "Ports": [{
+        "ContainerPort": "80"
+    }],
+    "Logging": "/var/log"
 }
