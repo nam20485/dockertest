@@ -1,0 +1,18 @@
+{
+ "AWSEBDockerrunVersion": "1",
+ "Authentication": {
+   "Bucket": "dockertest-auth",
+   "Key": ".dockercfg.json"
+ },
+ "Image": {
+    "Name": "nam20485/dockertest
+",
+    "Update": "true"
+  },
+ "Ports": [
+   {
+     "ContainerPort": "80"
+   }
+ ],
+ "Logging": "/var/log"
+}
