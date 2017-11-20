@@ -1,9 +1,5 @@
 {
     "AWSEBDockerrunVersion": "1",
-    "Authentication": {
-        "Bucket": "dockertest-auth",
-        "Key": ".dockercfg.json"
-    },
     "Image": {
         "Name": "903455642405.dkr.ecr.us-west-2.amazonaws.com/dockertest:latest",
         "Update": "true"
