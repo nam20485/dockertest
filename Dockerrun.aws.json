@@ -7,5 +7,6 @@
     "Ports": [{
         "ContainerPort": "8080"
     }],
-    "Logging": "/var/log"
+    "Logging": "/var/log",
+    "Volumes": []
 }
